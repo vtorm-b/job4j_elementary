@@ -16,6 +16,5 @@ public class Calc {
         System.out.println(fiveMinusTwo);
         System.out.println(fourTimeTwo);
 
-
     }
 }
