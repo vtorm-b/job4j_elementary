@@ -7,6 +7,6 @@ public class Out {
        System.out.println(idea + "'But l am a newbie.'");
        int year = 2021;
        idea = idea + year;
-       System.out.println(idea);
+       System.out.println(idea + idea);
       }
 }
