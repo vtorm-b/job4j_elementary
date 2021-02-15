@@ -16,7 +16,7 @@ public class Converter {
         int expeced2 = 143360;
         int out2 = ru.job4j.converter.Converter.sizeInfo(in2);
         boolean passed2 = expeced2 == out2;
-        System.out.println("В 140 килобайтах 143360 байтов. Test result:" + passed2);
+        System.out.println("В 140 килобайтах 143360 байтов. Test result: " + passed2);
         int in3 = 10;
         int expeced3 = 1000;
         int out3 = ru.job4j.converter.Converter.distInfo(in3);
