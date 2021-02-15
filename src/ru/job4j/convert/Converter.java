@@ -14,12 +14,12 @@ public class Converter {
         System.out.println("140 ribles are 2.Test result: " + passed);
         int in2 = 140;
         int expeced2 = 143360;
-        int out2 = ru.job4j.converter.Converter.sizeInfo(140);
+        int out2 = ru.job4j.converter.Converter.sizeInfo(in2);
         boolean passed2 = expeced2 == out2;
         System.out.println("В 140 килобайтах 143360 байтов. Test result:" + passed2);
         int in3 = 10;
         int expeced3 = 1000;
-        int out3 = ru.job4j.converter.Converter.distInfo(10);
+        int out3 = ru.job4j.converter.Converter.distInfo(in3);
         boolean passed3 = expeced3 == out3;
         System.out.println("В 10 метрах 1000 см. Test result: " + passed3);
     }
