@@ -25,7 +25,7 @@ public class X2Test extends TestCase {
         Assert.assertEquals(expected, rsl);
     }
     @Test
-            public void testCalc2() {
+        public void testCalc2() {
         int a = 1;
         int b = 1;
         int c = 0;
@@ -35,7 +35,7 @@ public class X2Test extends TestCase {
         Assert.assertEquals(expected, rsl);
     }
     @Test
-            public void testCalc3() {
+        public void testCalc3() {
         int a = 1;
         int b = 1;
         int c = 1;
