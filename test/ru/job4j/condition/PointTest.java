@@ -29,7 +29,7 @@ public class PointTest {
     @Test
     public void testDistance2() {
         int expected = 1;
-        int x1 = 2;
+        int x1 = 1;
         int y1 = 0;
         int x2 = 0;
         int y2 = 0;
