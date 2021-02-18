@@ -2,8 +2,6 @@ package ru.job4j.condition;
 
 public class Club {
     public static void permission(boolean hasManey, boolean byFriend) {
-        hasManey = true;
-        byFriend = true;
         if (hasManey || byFriend) {
             System.out.println("I cant go to the club.");
         } else {
