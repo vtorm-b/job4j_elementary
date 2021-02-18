@@ -2,9 +2,7 @@ package ru.job4j.condition;
 
 public class Max {
     public static int max(int left,int rigth){
-        int result = left > rigth ? left : rigth;
-        return result;
-
+        return left > rigth ? left : rigth;
         }
         public static void main(String[]args){
         int rsl = Max.max(4,2);
