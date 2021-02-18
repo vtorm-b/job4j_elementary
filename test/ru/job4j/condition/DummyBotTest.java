@@ -12,13 +12,15 @@ public class DummyBotTest {
         assertThat(DummyBot.answer("Привет,бот."),
                 is("Привет, умник."));
     }
+
     @Test
-    public void answer1(){
+    public void answer1() {
         assertThat(DummyBot.answer("Пока."),
                 is("До скорой встречи."));
     }
+
     @Test
-    public void answer2(){
+    public void answer2() {
         assertThat(DummyBot.answer("Сколько будет 2+2?"),
                 is("Это ставит меня в тупик. Задайте другой вопрос."));
     }

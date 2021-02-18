@@ -13,9 +13,7 @@ public class MaxTest {
 
     @Test
     public void max() {
-        int result = Max.max(4,2);
-        assertThat(result, is(4));
-
-
+        int result = Max.max(4, 2);
+        assertThat(result, is( 4));
     }
 }

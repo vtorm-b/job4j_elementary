@@ -1,7 +1,7 @@
 package ru.job4j.convert;
 
 public class Converter {
-    public static void main(String[]args){
+    public static void main(String[]args) {
         int in = 140;
         int expected = 2;
         int out = ru.job4j.converter.Converter.rubleToEuro(in);
