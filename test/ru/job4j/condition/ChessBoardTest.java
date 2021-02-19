@@ -8,19 +8,19 @@ import static org.junit.Assert.*;
 public class ChessBoardTest {
     @Test
     public void wayIs6() {
-        int way = ChessBoard.way(0, 0, 0, 6);
-        assertThat(way, is(6));
+        int way = ChessBoard.way(2, 0, 4, 2);
+        assertThat(way, is(3));
     }
 
-    @Test
+   @Test
     public void wayIs5() {
-        int way = ChessBoard.way(0, 0, 5, 0);
-        assertThat(way, is(5));
+        int way = ChessBoard.way(4, 0, 5, 2);
+        assertThat(way, is(2));
     }
 
     @Test
     public void wayIs0() {
-        int way = ChessBoard.way(0, 0, 5, 6);
-        assertThat(way, is(0));
+        int way = ChessBoard.way(2, 0, 0, 2);
+        assertThat(way, is(2));
     }
 }
