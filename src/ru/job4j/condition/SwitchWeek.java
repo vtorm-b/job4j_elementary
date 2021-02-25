@@ -29,7 +29,8 @@ public class SwitchWeek {
                 name = "ошибка";
                 break;
         }
-            return name;
-        }
+        return name;
+    }
 }
+
 
