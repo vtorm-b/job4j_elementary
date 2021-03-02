@@ -5,7 +5,7 @@ public class Board {
         for (int row = 0; row < height; row++) {
             for (int cell = 0; cell < width; cell++) {
                 System.out.print(" ");
-                if (row % 2 == 0 || cell % 2 != 0) { // поменять ячейки местами row % 2 != 0 || cell % 2 == 0
+                if ((row + cell) % 2 == 0) {
                     System.out.print("x");
                 } else {
                     System.out.print(" ");
