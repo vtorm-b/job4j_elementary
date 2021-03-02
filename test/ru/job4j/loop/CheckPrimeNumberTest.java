@@ -1,4 +1,4 @@
-/*package ru.job4j.loop;
+package ru.job4j.loop;
 
 import org.junit.Test;
 
@@ -24,4 +24,3 @@ public class CheckPrimeNumberTest {
         assertThat(rsl, is(false));
     }
 }
-*/
