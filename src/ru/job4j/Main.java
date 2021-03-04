@@ -2,7 +2,9 @@ package ru.job4j;
 
 
 public class Main {
-    public static void main(String[]args) {
-        System.out.println("Hello world");
-    }
+    public static void six(int x) {
+        for (int y = 0; y < x; y++) {
+        }
+        System.out.println(x);
+        }
 }
