@@ -24,3 +24,4 @@ public class PairsCharStringTest {
         assertThat(rsl, is(false));
     }
 }
+

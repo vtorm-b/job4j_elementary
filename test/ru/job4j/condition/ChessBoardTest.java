@@ -24,3 +24,4 @@ public class ChessBoardTest {
         assertThat(way, is(2));
     }
 }
+
