@@ -15,4 +15,20 @@ public class FindLoopTest {
         int expected = 0;
         Assert.assertEquals(expected,result);
     }
+    @Test
+    public void whenArrayHas4Then0() {
+        int[] data = {4,3,2,1};
+        int el = 4;
+        int result = FindLoop.indexOf(data,el);
+        int expected = 0;
+        Assert.assertEquals(expected,result);
+    }
+    @Test
+    public void whenArrayHas6Then0() {
+        int[] data = {5,4,3,2};
+        int el = 6;
+        int result = FindLoop.indexOf(data,el);
+        int expected = 0;
+        Assert.assertEquals(expected,result);
+    }
 }
